@@ -1,0 +1,57 @@
+html, body, h1, h2 {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background-color: #a3e9ff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-weight: 600;
+	text-shadow: 5px 5px 5px #aaa;
+	float: center;
+	position: absolute;
+	right: 150px;
+	top: 50px;
+}
+
+h2 {
+
+	font-weight: 200;
+	
+	letter-spacing: 1.2px;
+}
+
+a {
+	text-decoration: none;
+	display: inline;
+
+}
+
+.container {
+	position: absolute;
+
+}
+
+.main-content {
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+.tab-primary {
+	font-size: 30px;
+	font-weight: 30;
+	position: absolute;
+	top: 150px;
+	right: 700px;
+}
+
+.tab-secondary {
+	font-size: 30px;
+	font-weight: 30;
+	position: absolute;
+	top: 150px;
+	left: 700px;
+}

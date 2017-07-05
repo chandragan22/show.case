@@ -1,0 +1,33 @@
+html, body, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #757575;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 6000;
+	font-weight: 600;
+	text-shadow: 5px 5px 5px #aaa;
+}
+
+h2 {
+
+	font-weight: 200;
+	font-size: 41;
+	letter-spacing: -1.2px;
+}
+
+a {
+	text-decoration: none;
+	display: inline;
+}
+
+.container {
+	margin-left: 1000px;
+	margin-right: 1000px;
+	margin-top: 40px;
+}

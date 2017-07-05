@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link href="{{ url_for('static', filename='css/main2.css') }}" rel="stylesheet" >
+	</head>
+	<body>
+		<header>
+			<div class="navigation">
+				<ul>
+					<li><a href="{{ url_for('index') }}">Home</a></li>
+					<li><a href="{{ url_for('charttoppers') }}">Chart Toppers</a></li>
+					<li><a href="{{ url_for('music') }}">Music</a></li>
+					<li><a href="{{ url_for('dance') }}">Dance</a></li>
+					<li><a href="{{ url_for('contact') }}">Contact</a></li>
+				</ul>
+			</div>
+			<div class="container">
+				<h1 class="title">Showcase</h1>
+			</div>
+		</header>
+
+		{% block content %}
+		{% endblock %}
+
+	</body>
+</html>
