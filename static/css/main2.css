@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Bubbler One', sans-serif;
 	font-size: 100%;
 }
 
@@ -26,9 +26,10 @@ ul {
 }
 
 li {
+	font-family: 'Delius Swash Caps', cursive;
 	font-size: 1.2em;
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	border-right: 1px solid #000;
 	position: relative;
 
@@ -57,7 +58,7 @@ li a:hover {
 
 }
 
-h2 {
+.main-content h2 {
 	position: relative;
 	bottom: 60px;
 	font-size: 22px;
@@ -102,4 +103,36 @@ h2 {
 .tab-secondary:hover {
 	background-color: #3a66ea;
 	color: white;
+}
+
+
+.accountbtn {
+	text-align: right;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+.subtitle {
+	position: relative;
+	bottom: 10px;
+	font-size: 30px;
+	font-weight: 60px;
+
+}
+
+.container h2 {
+	position: relative;
+	bottom: 60px;
+	font-size: 50px;
+}
+
+.form-group {
+	position: relative;
+	width: 100%;
+	left: 30%;
+	text-align: left;
 }
