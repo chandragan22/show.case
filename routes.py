@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://127.0.0.1:5000/showcase'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Showcase2017@127.0.0.1:5432/showcase'
 db.init_app(app)
 
 app.secret_key = "development-key"
@@ -27,7 +27,7 @@ def signup():
 			newuser = User(form.first_name.data, form.last_name.data, form.email.data, form.username.data, form.password.data)
 			db.session.add(newuser)
 			db.session.commit()
-			
+	
 
 			session['username'] = newuser.username
 			return redirect(url_for('home'))
