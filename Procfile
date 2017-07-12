@@ -1,1 +1,1 @@
-web: gunicorn routes:app --preload --workers 1
+web: gunicorn routes:app 
